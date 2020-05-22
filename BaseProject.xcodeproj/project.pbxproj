@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		20EC58C0247760A900FC6CE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC58BF247760A900FC6CE8 /* AppDelegate.m */; };
-		20EC58C3247760A900FC6CE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC58C2247760A900FC6CE8 /* SceneDelegate.m */; };
 		20EC58C6247760A900FC6CE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC58C5247760A900FC6CE8 /* ViewController.m */; };
 		20EC58C9247760A900FC6CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EC58C7247760A900FC6CE8 /* Main.storyboard */; };
 		20EC58CB247760AE00FC6CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EC58CA247760AE00FC6CE8 /* Assets.xcassets */; };
@@ -20,8 +19,6 @@
 		20EC58BB247760A900FC6CE8 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EC58BE247760A900FC6CE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20EC58BF247760A900FC6CE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20EC58C1247760A900FC6CE8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		20EC58C2247760A900FC6CE8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		20EC58C4247760A900FC6CE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		20EC58C5247760A900FC6CE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		20EC58C8247760A900FC6CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +60,6 @@
 			children = (
 				20EC58BE247760A900FC6CE8 /* AppDelegate.h */,
 				20EC58BF247760A900FC6CE8 /* AppDelegate.m */,
-				20EC58C1247760A900FC6CE8 /* SceneDelegate.h */,
-				20EC58C2247760A900FC6CE8 /* SceneDelegate.m */,
 				20EC58C4247760A900FC6CE8 /* ViewController.h */,
 				20EC58C5247760A900FC6CE8 /* ViewController.m */,
 				20EC58C7247760A900FC6CE8 /* Main.storyboard */,
@@ -149,7 +144,6 @@
 				20EC58C6247760A900FC6CE8 /* ViewController.m in Sources */,
 				20EC58C0247760A900FC6CE8 /* AppDelegate.m in Sources */,
 				20EC58D1247760AE00FC6CE8 /* main.m in Sources */,
-				20EC58C3247760A900FC6CE8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,13 +286,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XNMZG3S4E;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongyuedu.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,13 +304,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XNMZG3S4E;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhongyuedu.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
