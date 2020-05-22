@@ -20,6 +20,8 @@
     //1111
     //222
     //333
+    UILabel * testLabel=[[UILabel alloc]init];
+    //我是新添加的行数
 //    UILabel * testLabel=[[UILabel alloc]init];
     // Do any additional setup after loading the view.
 }
