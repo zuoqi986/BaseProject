@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIView * whiteview=[[UIView alloc]init];
+    //1111
     // Do any additional setup after loading the view.
 }
 
