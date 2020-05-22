@@ -20,7 +20,7 @@
     //1111
     //222
     //333
-    UILabel * testLabel=[[UILabel alloc]init];
+//    UILabel * testLabel=[[UILabel alloc]init];
     // Do any additional setup after loading the view.
 }
 
