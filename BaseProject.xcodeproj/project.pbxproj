@@ -13,7 +13,6 @@
 		20EC58CB247760AE00FC6CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EC58CA247760AE00FC6CE8 /* Assets.xcassets */; };
 		20EC58CE247760AE00FC6CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EC58CC247760AE00FC6CE8 /* LaunchScreen.storyboard */; };
 		20EC58D1247760AE00FC6CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC58D0247760AE00FC6CE8 /* main.m */; };
-		20EC58D924777EEA00FC6CE8 /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC58D824777EEA00FC6CE8 /* newViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		20EC58CD247760AE00FC6CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20EC58CF247760AE00FC6CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20EC58D0247760AE00FC6CE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		20EC58D724777EEA00FC6CE8 /* newViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
-		20EC58D824777EEA00FC6CE8 /* newViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +42,6 @@
 		20EC58B2247760A900FC6CE8 = {
 			isa = PBXGroup;
 			children = (
-				20EC58D724777EEA00FC6CE8 /* newViewController.h */,
-				20EC58D824777EEA00FC6CE8 /* newViewController.m */,
 				20EC58BD247760A900FC6CE8 /* BaseProject */,
 				20EC58BC247760A900FC6CE8 /* Products */,
 			);
@@ -149,7 +144,6 @@
 				20EC58C6247760A900FC6CE8 /* ViewController.m in Sources */,
 				20EC58C0247760A900FC6CE8 /* AppDelegate.m in Sources */,
 				20EC58D1247760AE00FC6CE8 /* main.m in Sources */,
-				20EC58D924777EEA00FC6CE8 /* newViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
